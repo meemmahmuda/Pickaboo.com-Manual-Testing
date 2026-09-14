@@ -1,10 +1,10 @@
-# Pickaboo.com — Manual Testing Documentation
+# Pickaboo.com — Manual Testing Project
 
 Manual QA testing documentation for [Pickaboo.com](https://www.pickaboo.com), an e-commerce platform. This repository contains the complete test plan, test scenarios, test cases, execution results, and bug reports produced during manual functional, UI, and negative testing of the website.
 
 ## 📄 File
 
-- `Pickaboo_com_Manual_Testing.xlsx` — Complete manual testing workbook
+- [View Complete Pickaboo Manual Testing Documentation](https://docs.google.com/spreadsheets/d/1i8F4Mv-lwGL_txrONE7yKIYWflarFsmBB0JGJya6O6Q/edit?usp=sharing)
 
 ## 📑 Sheets Overview
 
