@@ -18,6 +18,10 @@ Manual QA testing documentation for [Pickaboo.com](https://www.pickaboo.com), an
 | **Test Case Summery Report** | Summary of pass/fail/blocked/no-run counts |
 | **Test Metrics** | QA metrics derived from execution results |
 
+## 🧠 Mind Map
+
+<img width="848" height="1415" alt="Mind Map for Othoba com (4)" src="https://github.com/user-attachments/assets/43402361-35bb-4784-8ed7-64fff2d624fd" />
+
 ## 🧩 Modules Covered
 
 - Registration
