@@ -36,20 +36,6 @@ Manual QA testing documentation for [Pickaboo.com](https://www.pickaboo.com), an
 | 6 | Cart | 13 | Add/remove products, quantity change, zero/negative quantity, empty cart, totals, discounted price |
 | | **Total** | **126** | |
 
----
-
-## 📊 Test Execution Summary
-
-| Status | Count |
-|---|---|
-| ✅ Passed | 114 |
-| ❌ Failed | 12 |
-| 🚫 Blocked | 0 |
-| ⏸️ No Run | 0 |
-| **Total** | **126** |
-
----
-
 ## ▶️ How to Execute
 
 1. Open the test case sheet and pick an area.
@@ -58,7 +44,6 @@ Manual QA testing documentation for [Pickaboo.com](https://www.pickaboo.com), an
 4. Compare the actual behavior with the expected result.
 5. Mark the status as **Pass**, **Fail**.
 6. For failures, log a defect with steps to reproduce, screenshots, and environment details.
-7. Retest after the defect is fixed and run regression checks on related areas.
 
 ---
 
