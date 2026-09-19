@@ -22,15 +22,21 @@ Manual QA testing documentation for [Pickaboo.com](https://www.pickaboo.com), an
 
 <img width="848" height="1415" alt="Mind Map for Othoba com (4)" src="https://github.com/user-attachments/assets/43402361-35bb-4784-8ed7-64fff2d624fd" />
 
-## 🧩 Modules Covered
+---
 
-- Registration
-- Login
-- Home Page
-- Forgot Password
-- Search
-- Product Listing
-- Cart
+## 🧩 Areas Covered
+
+| # | Area | Test Cases | Focus Areas |
+|---|------|:----------:|-------------|
+| 1 | Registration & Sign In | 8 | Blank fields, name/email validation, password rules, visibility toggle, duplicate email, wrong credentials |
+| 2 | Home Page | 35 | Logo, header, navigation, banners, deals, product cards, cart icon, footer, responsiveness, broken links/images, browser compatibility |
+| 3 | Forgot Password | 24 | Email validation, reset request/email/link, new password rules, password mismatch, XSS & SQL injection, login after reset |
+| 4 | Search | 23 | Valid/partial/exact keywords, brand/model search, result display, empty/special/long input, HTML & XSS injection, Unicode/emoji |
+| 5 | Category | 23 | Product listing, price sorting, filters, pagination, out of stock, responsive listing, duplicates, rapid filter clicks |
+| 6 | Cart | 13 | Add/remove products, quantity change, zero/negative quantity, empty cart, totals, discounted price |
+| | **Total** | **126** | |
+
+---
 
 ## 📊 Test Execution Summary
 
@@ -42,6 +48,50 @@ Manual QA testing documentation for [Pickaboo.com](https://www.pickaboo.com), an
 | ⏸️ No Run | 0 |
 | **Total** | **126** |
 
+---
+
+## ▶️ How to Execute
+
+1. Open the test case sheet and pick an area.
+2. Review the preconditions and prepare the required test data.
+3. Perform each test case on the application.
+4. Compare the actual behavior with the expected result.
+5. Mark the status as **Pass**, **Fail**.
+6. For failures, log a defect with steps to reproduce, screenshots, and environment details.
+7. Retest after the defect is fixed and run regression checks on related areas.
+
+---
+
+## 🐞 Defect Reporting Template
+
+```
+Bug ID:
+Title:
+Area / Feature:
+Severity / Priority:
+Environment (Browser / Device / OS):
+Preconditions:
+Steps to Reproduce:
+  1.
+  2.
+  3.
+Expected Result:
+Actual Result:
+Attachments (Screenshot / Video):
+Status:
+```
+
+---
+
+## 🔗 User Flow Covered
+
+```
+Registration → Sign In → (Forgot Password → Reset → Login)
+      → Home Page → Search / Category → Add to Cart → Cart Management
+```
+
+---
+
 ## 🐞 Testing Types Applied
 
 - Functional Testing
@@ -51,6 +101,20 @@ Manual QA testing documentation for [Pickaboo.com](https://www.pickaboo.com), an
 - Security Testing (XSS, SQL Injection)
 - Compatibility Testing (Chrome, Firefox, Edge)
 - Responsive Testing (Desktop, Tablet, Mobile)
+
+## 📊 Test Summary (fill after execution)
+
+| Area | Total | Passed | Failed | Blocked | Not Executed |
+|------|:-----:|:------:|:------:|:-------:|:------------:|
+| Registration & Sign In | 8 | | | | |
+| Home Page | 35 | | | | |
+| Forgot Password | 24 | | | | |
+| Search | 23 | | | | |
+| Category | 23 | | | | |
+| Cart | 13 | | | | |
+| **Total** | **126** | | | | |
+
+---
 
 ## 🛠️ Test Case Format
 
